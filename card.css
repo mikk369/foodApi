@@ -2,6 +2,19 @@
   margin-bottom: 9px;
 }
 
+.food-cards{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+grid-gap: 1rem;
+}
+
+/* .instructions{
+  height: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
 #search{
   font-size: 1rem;
 }
@@ -13,6 +26,10 @@
   border-radius: 9px;
   width: 250px;
   height: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 .card img{
